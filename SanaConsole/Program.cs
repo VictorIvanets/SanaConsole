@@ -13,9 +13,11 @@ internal class Program
 
         if (!double.TryParse(score, out ageToInt))
         {
-            Console.WriteLine($"ENTER double (0,0)!! NOT {score}");
+            Console.WriteLine($"ENTER NUMBER (0,0)!! NOT {score}");
             return;
         }
+
+
    
         if (ageToInt >= 90 && ageToInt <= 100) Console.WriteLine("SUPER");
 
