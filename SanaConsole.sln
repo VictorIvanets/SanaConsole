@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35312.102
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SanaConsole", "SanaConsole\SanaConsole.csproj", "{9F8D80E8-0311-41D0-828F-912FC6EF00B3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9F8D80E8-0311-41D0-828F-912FC6EF00B3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9F8D80E8-0311-41D0-828F-912FC6EF00B3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9F8D80E8-0311-41D0-828F-912FC6EF00B3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9F8D80E8-0311-41D0-828F-912FC6EF00B3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0114BBD5-0980-465C-A5BD-1D3FDD1CD4D8}
+	EndGlobalSection
+EndGlobal
