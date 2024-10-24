@@ -16,8 +16,6 @@ internal class Program
             Console.WriteLine($"ENTER NUMBER (0,0)!! NOT {score}");
             return;
         }
-
-
    
         if (ageToInt >= 90 && ageToInt <= 100) Console.WriteLine("SUPER");
 
@@ -26,8 +24,6 @@ internal class Program
         
         else Console.WriteLine("Not SUPER");
                
-            
-
 
     
     }
