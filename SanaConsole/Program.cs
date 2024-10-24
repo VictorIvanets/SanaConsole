@@ -16,13 +16,35 @@ internal class Program
             Console.WriteLine($"ENTER NUMBER (0,0)!! NOT {score}");
             return;
         }
-   
-        if (ageToInt >= 90 && ageToInt <= 100) Console.WriteLine("SUPER");
 
-        else 
-        if (ageToInt >= 70 &&  ageToInt <= 89 ) Console.WriteLine("GOOD");   
-        
-        else Console.WriteLine("Not SUPER");
+        if (ageToInt < 1 || ageToInt > 100)
+        {
+            Console.WriteLine("ENTER SCORE BETWEEN 1-100");
+            return;
+        }
+        else
+        {
+            switch (ageToInt)
+            {
+                case (>= 90):
+                    Console.WriteLine("SUPER");
+                    break;
+                case (>= 80):
+                    Console.WriteLine("GOOD");
+                    break;
+                case (>= 50):
+                    Console.WriteLine("NO BED");
+                    break;
+
+                default:
+                    Console.WriteLine("BED");
+                    break;
+            }
+
+        }
+            
+
+       
                
 
     
